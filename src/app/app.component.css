@@ -1,0 +1,56 @@
+.main {
+  text-align: center;
+  overflow: scroll;
+}
+
+.canvas {
+  border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 575px) {
+  .nav-link {
+    padding-top: 0.8rem;
+    padding-right: 1rem;
+  }
+  .btnSort-onCollapse {
+    display: inline-flex !important;
+  }
+  .btnSort {
+    display: none !important;
+  }
+}
+
+.btnSort-onCollapse {
+  display: none;
+}
+
+.btnSort {
+  display: inline-flex;
+}
+
+.navbar-collapse {
+  justify-content: center!important;
+}
+
+.form-control {
+  width: 60px;
+  text-align: center;
+}
+
+form :first-child {
+  margin-right: 1rem;
+}
+form :nth-child(2) {
+  margin-top:6px;
+}
+form :last-child {
+  margin-left: 1rem;
+}
+
+.navbar-brand {
+  margin-right: 0rem;
+}
+
+.navbar-nav {
+  margin-top: 3.5px;
+}
